@@ -1,0 +1,45 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling using ID */
+#header {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for paragraphs with the 'intro' class */
+.intro {
+    font-size: 18px;
+    line-height: 1.6; 
+    margin: 20px;
+    padding: 10px; 
+    background-color: #e2f1e4; 
+    border: 1px solid #d0e0d0; 
+}
+
+/* Styling for the image using the 'styled-img' class */
+.styled-img {
+    display: block; 
+    margin: 20px auto; 
+    width: 50%; 
+    border-radius: 10px; 
+    border: 5px solid #ddd;
+}
+
+/* Footer styling using element selector */
+footer {
+    background-color: #333;
+    color: white; 
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
